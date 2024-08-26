@@ -1,0 +1,157 @@
+html, body {
+    height: 100%;
+    width: 100%; 
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    background-color: #e0f7fa; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #333;
+
+    background-image: url(imagens/istockphoto-1158735721-612x612.jpg); 
+    background-size: cover; 
+    background-position:center;
+    background-repeat:no-repeat;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7px;
+    background-color: #00acc1; 
+}
+
+header .logo {
+    height: 60px;
+}
+
+.container-principal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1100px;
+    padding: 30px;
+    background-color: #ffffff00;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+    flex-grow: 1; 
+    flex-shrink: 0; 
+}
+
+.area-esquerda {
+    flex: 1;
+    margin-right: 80px;
+}
+
+.campo-texto {
+    width: 100%;
+    height: 200px;
+    padding: 5px;
+    font-size: 18px;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1px;
+    resize: none;
+    background-color: #e0f7fa; 
+    margin-bottom: 10px;
+}
+
+.informacao {
+    color: #ffffff; 
+    font-size: 15px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    
+}
+
+.botoes {
+    display: flex;
+    justify-content: center;
+    gap: 170px;
+}
+
+button {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    background-color: #6c63ff; 
+    border: none;
+    border-radius: 10px; 
+    padding: 10px 20px; 
+    cursor: pointer;
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.1); 
+    transition: background-color 0.3s ease, transform 0.3s ease; 
+    margin-left: 15px; 
+    margin-top: 30px;
+}
+
+.botao-criptografar {
+    background-color: #4caf50;
+}
+
+.botao-descriptografar {
+    background-color: #4caf50;
+}
+
+.botao-copiar {
+    background-color: #f57c00; 
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #5551d3; 
+    transform: scale(1.05); 
+}
+
+button:focus {
+    outline: 2px solid #ffcc00; 
+}
+
+.area-direita {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    flex: 1;
+}
+
+.imagem-decodificador {
+    width: 300px;
+    height: 150px;
+    margin-bottom: 100px;
+}
+
+.mensagem-principal {
+    font-size: 20px;
+    font-weight: bold;
+    color: #feffff; 
+    margin-bottom: 20px;
+}
+
+.mensagem-secundaria {
+    font-size: 15px;
+    color: #ffffff; 
+    margin-bottom: 20px;
+}
+
+footer {
+    width: 100%;
+    background-color: #00acc1; 
+    padding: 10px;
+    text-align: center;
+    margin-top: 30px;
+    flex-shrink: 0; 
+}
+
+footer .footer-text {
+    color: #fff;
+    font-size: 20px;
+}
